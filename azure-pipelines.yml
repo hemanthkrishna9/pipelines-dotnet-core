@@ -7,7 +7,7 @@ variables:
   buildConfiguration: 'Release'
   imageName: 'dotnetcore:$(Build.BuildId)'
   dockerId: 'abd17'
-  pswd: 'dockerHK*9'
+  dockerPassword: 'dockerHK*9'
 
   # define two more variables dockerId and dockerPassword in the build pipeline in UI
 
